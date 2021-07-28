@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Geekyshows Maze Runner',
       theme: ThemeData(
-          primarySwatch: Colors.orange,
-          scaffoldBackgroundColor: Colors.blueGrey),
+          primarySwatch: Colors.red,
+          scaffoldBackgroundColor: Colors.amberAccent),
       debugShowCheckedModeBanner: false,
       home: MazePage(),
     );
